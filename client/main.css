@@ -1,0 +1,30 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.step-switcher-wrapper {
+  margin: 5px auto;
+  width: fit-content;
+}
+
+.step-switcher-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-switcher-sublabel {
+  font-style: italic;
+  font-size: 12px;
+}
